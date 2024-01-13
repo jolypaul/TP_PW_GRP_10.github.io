@@ -1,0 +1,54 @@
+
+  header, a {
+    margin: auto;
+    padding: auto;
+    display: block;
+    position: relative;
+    background-attachment: fixed;
+    background-color: rgba(rgb(46, 42, 42), rgb(20, 26, 20), rgb(35, 35, 37), alpha);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  body, p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    color: #666;
+    font-weight: 400
+  }
+  nav{
+    flex-direction: column-reverse;
+  }
+
+@media  (max-width: 700px) {
+  aside{
+    top: 100%;
+    left: 50%;
+    margin-left: -127.5px;
+  }
+  article {
+    margin-right: 0;
+    margin-bottom: 463px;
+    padding-bottom: 10px;
+  }
+   nav{
+    text-align: center;
+    bottom: 25%;
+    right: 25%;
+    top: auto;
+   }
+   header{
+    display: flex;
+    flex-direction: column;
+   }
+   body{
+    width: 100%;
+   }
+}
+  aside{
+    position: initial;
+    text-align: center;
+  }
